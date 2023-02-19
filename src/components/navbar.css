@@ -1,0 +1,88 @@
+/*developers:*/
+/*Mor Yossef 209514264*/
+/*Shir Davidov 318852159*/
+/*Rinat Polonski 313530842*/
+
+
+.navbar {
+    background-color: #6976d9;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu {
+    background-color: #6976d9;
+    width: 300px;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: .8s;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: .3s;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color: antiquewhite;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #6976d9;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+span {
+    margin-left: 10px;
+}
